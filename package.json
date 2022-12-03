@@ -9,15 +9,12 @@
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build",
-    "heroku-postbuild": "cd client && npm run build"
   },
   "keywords": [],
   "author": "a-ens",
   "license": "MIT",
   "dependencies": {
-    "concurrently": "^5.3.0",
-    "mongoose": "^6.7.5",
-    "per-env": "^1.0.2"
+    "concurrently": "^5.1.0",
   },
   "repository": {
     "type": "git",
