@@ -13,8 +13,13 @@
   "keywords": [],
   "author": "a-ens",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "concurrently": "^5.1.0"
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
+    "apollo-client": "^2.6.10",
+    "graphql": "^15.5.2"
   },
   "repository": {
     "type": "git",
