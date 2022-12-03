@@ -8,13 +8,13 @@
     "start:prod": "cd server && npm start",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
-    "build": "cd client && npm run build",
+    "build": "cd client && npm run build"
   },
   "keywords": [],
   "author": "a-ens",
   "license": "MIT",
   "dependencies": {
-    "concurrently": "^5.1.0",
+    "concurrently": "^5.1.0"
   },
   "repository": {
     "type": "git",
