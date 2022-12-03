@@ -34,6 +34,14 @@ const typeDefs = gql`
         user: User
     }
 
+    input InputBook {
+        bookId: String
+        authors: [String]
+        title: String
+        description: String
+        image: String
+        link: String
+    }    
 `;
 
 module.exports = typeDefs;
