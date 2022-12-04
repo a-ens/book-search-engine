@@ -20,7 +20,7 @@ Uses the Google Books API to provide data for a book search engine. Refactored i
 
 OR
 
--Access the deployed application at ______ *yet to be deployed*
+-Access the deployed application at ______ (*yet to be deployed*)
 
 ## Coming Soon
 
