@@ -2,7 +2,7 @@
   "name": "book-search-engine",
   "version": "1.0.0",
   "engines": {
-    "node": "18.x"
+    "node": "16.x"
   },
   "description": "MERN stack application that uses Google Books API to set-up a search engine for finding books",
   "main": "server/server.js",
