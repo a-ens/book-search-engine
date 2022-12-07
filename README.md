@@ -2,7 +2,7 @@
 
 ## Description
 
-Uses the Google Books API to provide data for a book search engine. Refactored into a GraphQL API built with Apollo Server
+Uses the Google Books API to provide data for a book search engine. Refactored into a GraphQL API built with Apollo Server.
 
 ## Installation
 
@@ -12,16 +12,22 @@ Uses the Google Books API to provide data for a book search engine. Refactored i
 
 - `npm install`
 
-
-
 ## Usage
 
 - Use `npm start`
 
 OR
 
--Access the deployed application at ______ (*yet to be deployed*)
+-Access the deployed application at [this URL](https://ae-book-search-engine.herokuapp.com/) (*yet to be successfully deployed*)
+
+## Demonstration
+
+![Full Demonstration of App's capabilities](./Assets/full-demo.gif)
 
 ## Coming Soon
 
-- Updates to insure that the server starts up properly, as it is currently experiencing errors when `npm run start` is invoked.
+- Updates to make the app work with heroku
+
+## NOTE
+
+The entire app works perfectly on a local server, and even has a MongoDB database set up for it, but it has persistently encountered an error(`h10`) in deploying to heroku. Needs further debugging.
